@@ -1,6 +1,6 @@
 ## Gemini API Class  
-## Introduction  
 "What one generation tolerates, the next generation will embrace." — John Wesley  
+## Introduction  
 This repository aims to simplify integration with Google's Gemini API across text, image, audio, video, and music generation use cases.  
 
 ## Installation Prerequisites  
