@@ -132,12 +132,11 @@ class geminiText(geminiAI):
         
     def updateConfig(self):
         #Updates the config when changed
-        configs = types.GenerateContentConfig(
+        self.configs = types.GenerateContentConfig(
             systemInstruction=self.systemInstruction,
             maxOutputTokens=self.maxOutputTokens,
             temperature=self.temperature
         )
-        return configs
             
     def updateContents(self, newContents):
         #Updates the Contents of the message (Prompt)
